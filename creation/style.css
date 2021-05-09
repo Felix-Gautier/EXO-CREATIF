@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS';
+    background: #f3f3f3;
+    margin: 0 auto;
+}
+
+marquee{
+    width: 100%;
+    margin: auto;
+}
+
+.anim{
+    text-align: center;
+}
+
+.anim-p1{
+    color: orange;
+    font-size: 30px;
+}
+
+.anim-p2{
+    color: cornflowerblue;
+    font-size: 15px;
+}
+
+.main-header{
+    margin: 50px auto 0;
+    width: 400px;
+}
+
+#menu_horizontal{
+    list-style-type: none;
+    display: flex;
+}
+
+#menu_horizontal a{
+    padding: 10px 20px;
+    background-color: orange;
+    color: cornflowerblue;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+#menu_horizontal a:hover{
+    background-color: cornflowerblue;
+    color: orange;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    padding :25px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    border: 1px solid wheat;
+    width: 1000px;
+    padding: 25px;
+    display: flex;
+}
+
+.img-profil{
+    width: 10%;
+}
+
+.img-profil img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.principal{
+    width: 900px;
+}
+
+.tit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tit p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.icon{
+    display: flex;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.icon img{
+    margin: 0 2px;
+}
+
+.icon p{
+    font-size: 12px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: gray;
+}
+
+.icon span{
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+.textpart{
+    padding: 20px 0;
+    width: 650px;
+}
+
+.prg-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.prg-cmt{
+    font-size: 25px;
+    color: gray;
+}
+
+footer{
+    text-align: center;
+}
+
+.foot-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-icon p{
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+}
